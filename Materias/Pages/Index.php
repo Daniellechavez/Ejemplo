@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Notas</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>MATERIAS</h1>
+    <a href="add.php" target="_black" ">Registrar Materia</a> <br><br>
+    <table border="2">
+
+            <tr>
+                <th>ID</th>
+                <th>NOMBRE</th>
+                <th>ACCIONES</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ingles</td>
+                <td>
+                    <a href="edit.php" target="1" ">Editar</a>
+                    <a href="delet.php" target="2" ">Eliminar</a>
+                </td>
+            </tr>
+     </table>
+    
+</body>
+</html>
